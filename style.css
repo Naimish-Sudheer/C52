@@ -1,0 +1,45 @@
+
+h1{
+    color:goldenrod;
+    font-family: "ff-meta-web-pro", sans-serif;
+    font-size: 110%;;
+}
+
+*{
+    border:indigo solid
+
+}
+
+.Heading{
+   display:flex;
+   justify-content: space-between; 
+}
+
+.Grid{
+    margin-top: 100px;
+    display:flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
