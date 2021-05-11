@@ -1,21 +1,19 @@
 
 h1{
     color:#186A3B ;
-    font-family: "ff-meta-web-pro", sans-serif;
-    font-size: 110%;;
+   
+    font-size: 250%;;
 }
 .Footer{
     display: flex;
     justify-content: flex-end;
 }
-*{
-    border:indigo solid
 
-}
 
 .Heading{
    display:flex;
    justify-content: space-between; 
+   border:solid
 }
 
 .Grid{
@@ -27,17 +25,45 @@ h1{
 body{
 background-color: #48C9B0;
 }
+.Heading *{
+    padding:1px;
+    border:solid
+}
 
+a:hover{
+    color:#922B21
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.Grid a{
+    margin:10px
+}
+.images{
+    
+    position:relative;
+}
+.images:hover{
+    
+    transform:scale(1.25);
+}
 
+.images p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+    
+    
+}
 
-
-
-
-
-
-
-
+.images:hover p{
+    opacity:1;
+    transform:scale(1.75);
+    transform:translate(-50%,-50%);
+}
 
 
 
